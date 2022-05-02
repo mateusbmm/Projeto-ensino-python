@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+
+	--blue-one:#0e2433;
+	--blue-two:#1c4866;
+	--blue-three:#296d98;
+	--blue-four:#3792cb;
+	--blue-five:#45b6fe;
+	--yelow:#ffff00;
+	--color-white:#fff;
+	--color-black:#000;
+
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Maven Pro', sans-serif;
+	background-color: var(--blue-two);
+	position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Press Start 2P', 'cursive';
+}
+
+
+
+
+
+
+
+
+
+
