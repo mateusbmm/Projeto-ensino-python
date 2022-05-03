@@ -1,3 +1,5 @@
+@import url("mobile/header_mobile.css");
+
 header{
     background-color: var(--blue-two); 
 
@@ -33,10 +35,21 @@ header{
     justify-content: center;
 }
 
-.logo img {
+.logo a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo a img {
+  
     max-height: 65%;
 }
 
+.header-container .nav-button{
+    display: none;
+    visibility: hidden;
+}
 
 .nav-menu {
     
@@ -46,6 +59,14 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+.nav-menu.mobile {
+
+    display: none;
+    visibility: hidden;
+    
+}
+
 
 .nav-menu ul {
     display: flex;

@@ -1,0 +1,81 @@
+
+.titles {
+    width: 100%;
+	display: flex;
+    justify-content: center;
+}
+
+
+.titles h1{
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.mobile .card-container{
+    width: 100%;
+    background-color: var(--blue-one);
+    
+    padding: 3rem 1rem 1rem ;
+    color: var(--color-white);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    
+}
+
+
+.mobile .card.medium,
+.mobile .card.large {
+
+    background-color: var(--blue-three);
+    width: 100%;
+
+    height: 50.6rem;
+
+    border-radius: 2rem;
+    padding: 4rem;
+
+    position: relative;
+    margin:1rem;
+
+}
+
+
+.mobile .card.small .card-content ,
+.mobile .card.medium .card-content ,
+.mobile .card.large .card-content{
+
+
+    width: 100%;
+    z-index: 2;
+}
+
+
+.mobile .card.small h4,
+.mobile .card.medium h4,
+.mobile .card.large h4 {
+
+    font-size: 1rem;
+}
+
+.mobile .card.small p,
+.mobile .card.medium p,
+.mobile .card.large p {
+    font-size: 2rem;
+    max-width: 90%;
+}
+
+.mobile .card.small .card-img,
+.mobile .card.medium .card-img ,
+.mobile .card.large .card-img{
+    display:none;
+    visibility: hidden;
+    
+}
+

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <!-- estilos -->
     <link rel="stylesheet" href="css/global.css">
@@ -17,31 +18,14 @@
     <link rel="stylesheet" href="css/apresentation.css">
     <link rel="stylesheet" href="css/cards.css">
 
+    
 
     <title>Projeto Ensino de programação</title>
 </head>
 <body>
 
+    
     <div class="container">
-
-        <header>
-			<div class="header-container">
-				<div class="logo">
-					<img src="images/logoIfCinza.svg" alt="" />
-				</div>
-
-				<div class="nav-menu">
-					<ul>
-						<li><a href="">Conteudos</a></li>
-						<li><a href="">Tutores</a></li>
-						
-					</ul>
-
-					<button>MAIS +</button>
-				</div>
-			</div>
-		</header>
-
         <div class="apresentation-img">
             <svg width="1412" height="1849" viewBox="0 0 1412 1849" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="1412" height="1849" fill="#C80000" fill-opacity="0.01"/>
@@ -102,6 +86,29 @@
                 
         </div>
 
+        <header class="">
+			<div class="header-container">
+				<div class="logo">
+                    <a href="index.html"><img src="images/logoIfCinza.svg" alt="" /></a>
+					
+				</div>
+
+				<div class="nav-menu">
+					<ul>
+						<li><a href="">Conteudos</a></li>
+						<li><a href="">Tutores</a></li>
+						
+					</ul>
+
+					<button>MAIS +</button>
+				</div>
+                <div class="nav-button">
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+			</div>
+		</header>
+
+       
         <div id="apresentation">
             <h1>PENSAMENTO COMPUTACIONAL</h1>
             <h3>curso de pensamento computacional criado apra os alunos do ensino médio</h3>
@@ -109,6 +116,7 @@
 
         <div class="card-container">
             <div class="card medium">
+        
                 <h4>Ensino, pesquisa e extensão</h4>
 
                 <div class="card-content">
@@ -152,26 +160,19 @@
                 </div>
             </div>
 
-            <div class="card large">
-                <h4>Ensino, pesquisa e extensão</h4>
-
-                <div class="card-content">
-                    <h2>Lorem ipsum dolor sit amet.</h2>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-                        doloribus?
-                    </p>
-                </div>
-
-                <div class="card-img">
-                    <img src="images/code-web.svg" alt="" />
-                </div>
-            </div>
+            
         </div>
+
+    
 
     </div>
 
+    <footer>
+        <div class="footer-logo">
+            <img src="" alt="">
+        </div>
+    </footer>
     
+    <script src="javascript/mobile.js"></script>
 </body>
 </html>

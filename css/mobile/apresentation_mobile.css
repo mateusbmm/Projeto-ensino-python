@@ -1,0 +1,16 @@
+.mobile #apresentation{
+    width: 90%;
+    background-color: transparent;
+}
+
+
+.mobile #apresentation h1{
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-top: .5rem;
+}
+
+.mobile #apresentation h3{
+
+    font-size: 1.4;
+}

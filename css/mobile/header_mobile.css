@@ -1,0 +1,49 @@
+
+
+.mobile .nav-menu.desactive{
+
+    display: none;
+    visibility: hidden;
+}
+
+.mobile .nav-menu{
+
+    position: absolute;
+    background-color: var(--blue-two);
+    width: 100%;
+    height: 30vh;
+    top: 15vh;
+    left: 0;
+
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.mobile  .nav-menu ul {
+    height: 50%;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+}
+
+.mobile  .nav-menu ul li{
+
+    margin:1rem 0;
+}
+
+.mobile .header-container .nav-button{
+    
+    width: 3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    visibility: visible;
+
+    
+
+}
+
+.mobile .nav-menu button {
+    margin-left: 0;
+}
